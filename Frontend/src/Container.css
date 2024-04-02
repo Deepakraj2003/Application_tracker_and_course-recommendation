@@ -1,0 +1,54 @@
+.contact-details-container {
+    padding: 16px;
+  }
+  
+  .contact-details {
+    margin-top: 16px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+   
+  }
+  
+  th,
+  td {
+    padding: 8px;
+    text-align: left;
+  }
+ 
+  
+  th {
+    font-weight: bold;
+    width: 120px; /* Adjust width as needed */
+  }
+  
+  .basic tr:nth-child(even) {
+    background-color: #ebeaea;
+  }
+  
+tr{
+    padding-bottom: 30px;
+}
+
+.skills-list {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Default: Single column */
+  gap: 10px;
+}
+
+@media (min-width: 768px) {
+  .skills-list {
+    grid-template-columns: repeat(3, 1fr); /* Three columns on screens wider than 768px */
+  }
+}
+
+@media (min-width: 1024px) {
+  .skills-list {
+    grid-template-columns: repeat(4, 1fr); /* Four columns on screens wider than 1024px */
+  }
+}
+
+
+  
